@@ -7,7 +7,6 @@ public class arrays {
     /**
      * @param args
      */
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int[] numbers = {10,20,30,40,50};
 
@@ -24,7 +23,7 @@ public class arrays {
         System.out.print(max);
         
         Arrays.sort(numbers);
-        
+
         System.out.print("\n Min = " + numbers[0]);
         System.out.print("\n Max = " + numbers[numbers.length-1]);
     }
